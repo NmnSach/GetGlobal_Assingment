@@ -4,7 +4,7 @@ The project simply allows the user to enter their email in the input field and s
 
 Download the project files and run sever and react-app separately. Also, make sure you have your MongoDB set up and node modules installed.
 
-#To_Run 
+# To Run 
 
 - In the react-app, open the terminal and run the command -- npm install react-scripts --save
 
