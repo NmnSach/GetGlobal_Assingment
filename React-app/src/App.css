@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .logo-image {
@@ -31,6 +32,7 @@
 }
 
 .left {
+    margin-top: 30px;
     width: 40%;
 }
 
@@ -65,7 +67,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     background-color: #f4eff7;
 }
 
@@ -127,4 +129,81 @@ button {
     margin-bottom: 30px;
     cursor: pointer;
 }
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 576px) {
+    .hero-div {
+        flex-direction: column;
+    }
+
+
+    .left {
+        width: 85%;
+        align-items: center;
+    }
+
+    .img{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .email-container input {
+        width: 50%;
+    }
+}
+
+/* Media query for screens larger than or equal to 576px and smaller than 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-div {
+        flex-direction: column;
+    }
+
+
+    .left {
+        width: 85%;
+        align-items: center;
+    }
+
+    .img{
+        margin-top: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    .email-container input {
+        width: 50%;
+    }
+
+}
+
+/* Media query for screens larger than or equal to 768px and smaller than 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-div {
+        flex-direction: column;
+    }
+
+
+    .left {
+        width: 85%;
+        align-items: center;
+    }
+
+    .img{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .email-container input {
+        width: 50%;
+    }
+}
+
+/* Media query for screens larger than or equal to 992px and smaller than 1200px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .email-container input {
+        width: 50%;
+    }
+}
+
 
